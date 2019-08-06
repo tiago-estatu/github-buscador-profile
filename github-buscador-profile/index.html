@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Buscador de profiles GitHub </title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <!--<link rel="stylesheet" href="css/skeleton.css">-->
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="">
+
+
+</head>
+<body>
+
+  <!-- Document begins
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <main class="mainContainer">
+        <div class="centralizer">
+          <div class="blocoBuscar">
+              <h4>Buscador de profiles no GitHub</h4>
+              <span class="textSpan">Localize repositórios, seguidores insira o nome de Login!</span>
+              <div class="wrapComponentBuscar">
+                <input type="text" name="" id="userNameInputValue">
+                <input type="button" value="BUSCAR" id="btnBuscarProfile">
+              </div>
+          </div>
+
+          <!-- RESULTADO DA CHAMADA AJAX SERÁ INSERIDO-->
+          <div id="insereResultado" class="wrapContentResults"></div>
+          <!--/ RESULTADO DA CHAMADA AJAX SERÁ INSERIDO-->
+          
+      </div>
+  </main>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="js/gitHub-buscador.js"></script>
+
+</body>
+</html>
